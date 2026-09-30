@@ -73,10 +73,10 @@ SHAP (SHapley Additive exPlanations) is used to provide insight into which featu
 
 The generated SHAP visualization is stored in:
 
-```text
 artifacts/shap_summary.png
 
-🖥️ Streamlit Application
+
+## 🖥️ Streamlit Application
 
 The project includes an interactive Streamlit interface where a user can enter transaction information and receive:
 
@@ -92,7 +92,7 @@ Decision threshold: 0.65
 
 The application is intended as a demonstration of real-time transaction scoring.
 
-📂 Project Structure
+##📂 Project Structure
 01_fraud_detection/
 │
 ├── artifacts/
@@ -104,6 +104,8 @@ The application is intended as a demonstration of real-time transaction scoring.
 ├── requirements.txt
 └── README.md
 ⚙️ Installation
+
+---
 
 Create and activate a virtual environment:
 
@@ -127,7 +129,8 @@ artifacts/fraud_model.joblib
 The SHAP explanation plot will be generated as:
 
 artifacts/shap_summary.png
-🚀 Run the Application
+
+## Run the Application
 
 Start the Streamlit application:
 
@@ -135,13 +138,13 @@ streamlit run app.py
 
 The application will open in the browser and provide an interactive fraud-risk scoring interface.
 
-📁 Dataset
+## 📁 Dataset
 
 This prototype uses synthetically generated transaction data for reproducibility and demonstration purposes.
 
 The synthetic dataset is not a real banking dataset and should not be interpreted as representing actual financial transaction behavior.
 
-⚠️ Limitations
+## ⚠️ Limitations
 
 This project is an educational/prototype implementation.
 
@@ -156,7 +159,7 @@ Production monitoring and automated model-drift detection are not implemented.
 
 Therefore, the reported model performance should not be interpreted as real-world banking fraud-detection performance.
 
-🔮 Future Improvements
+## 🔮 Future Improvements
 
 Possible future improvements include:
 
@@ -180,6 +183,7 @@ SHAP
 Joblib
 Matplotlib
 Streamlit
-✅ Project Status
+
+## ✅ Project Status
 
 Completed — Prototype / Internship Submission
