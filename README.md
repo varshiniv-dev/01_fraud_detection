@@ -2,6 +2,10 @@
 
 An AI-based fraud detection prototype that analyzes transaction information and estimates the probability of a transaction being fraudulent.
 
+## 🌐 Live Demo
+
+[Launch the Bank Fraud Detection App](https://01-fraud-detection.streamlit.app/)
+
 ## 📌 Project Overview
 
 Financial transaction datasets are highly imbalanced because fraudulent transactions represent only a small portion of total transactions. This project uses machine learning to identify potentially fraudulent transactions while handling class imbalance and optimizing the classification threshold.
