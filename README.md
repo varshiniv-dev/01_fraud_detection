@@ -104,9 +104,9 @@ The application is intended as a demonstration of real-time transaction scoring.
 ├── train.py
 ├── requirements.txt
 └── README.md
-⚙️ Installation
-
 ---
+
+## ⚙️ Installation
 
 Create and activate a virtual environment:
 
@@ -117,7 +117,8 @@ python -m venv .venv
 Install the required dependencies:
 
 pip install -r requirements.txt
-🚂 Train the Model
+
+# 🚂 Train the Model
 
 Run:
 
@@ -174,7 +175,8 @@ Prometheus/Grafana monitoring
 Model drift detection
 Automated model retraining
 Integration with real-time transaction streams
-🛠️ Technology Stack
+
+## 🛠️ Technology Stack
 Python
 Pandas
 NumPy
