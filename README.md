@@ -106,7 +106,7 @@ The application is intended as a demonstration of real-time transaction scoring.
 └── README.md
 
 ## ⚙️ Installation
----
+
 Create and activate a virtual environment:
 
 Windows
