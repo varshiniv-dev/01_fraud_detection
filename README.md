@@ -91,8 +91,8 @@ Risk: LOW RISK
 Decision threshold: 0.65
 
 The application is intended as a demonstration of real-time transaction scoring.
-
-##📂 Project Structure
+---
+## 📂 Project Structure
 01_fraud_detection/
 │
 ├── artifacts/
